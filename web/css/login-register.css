@@ -1,0 +1,42 @@
+/* Menambahkan sedikit custom styling untuk gambar dan form */
+.login-register-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container {
+    width: 100%;
+    max-width: 500px;
+    padding: 30px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.form-container .title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-container .btn {
+    width: 100%;
+    padding: 10px;
+}
+
+.image-container {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .image-container {
+        display: block;
+    }
+}
